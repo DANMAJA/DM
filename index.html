@@ -1,4 +1,10 @@
 <title> zadejte kod </title>
-<select onchange="change()">
+<select onchange="change(this.value)">
+  <option disabled selected>Vyberte Kod </option>
   <option value="corect.html">8XPO-5E7M </option>
   </select>
+  <script>
+function change(src) {
+window.location=src;
+}
+</script>
