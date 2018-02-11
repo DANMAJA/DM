@@ -1,5 +1,12 @@
 <title> zadejte kod </title>
-<h1> Zadejte kod /h1>
+<h1> Zadejte kod </h1>
   <form>
-<input type="text" value="Kod">
+<input id="myTet" type="text" value="" placehonder="Zadejte Kod" maxlength="8"/>
+    <input type="button" onclick="odeslat()" value="Overit"/>
     </form>
+<script>
+ function odeslat() {
+   x = document.getElementById("myText");
+   window.location="(x.value)" ;
+   }
+</script>
